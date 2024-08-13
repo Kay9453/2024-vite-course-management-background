@@ -1,0 +1,25 @@
+.add-admin{
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.admin-head-shot{
+    width: 141px;
+    height: 141px;
+    object-fit: cover;
+}
+.admin-user-email{
+    color: $gray-600;
+}
+.verify-status{
+    font-size: 14px;
+}
+.modal-title{
+    font-size: 20px;
+}
+.form-check{
+    label{
+        font-size: 16px;
+    }
+}

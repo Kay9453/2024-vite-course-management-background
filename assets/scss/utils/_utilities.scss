@@ -1,0 +1,56 @@
+// 大頭照尺寸
+.head-shot{
+  width: 40px;
+  height: 40px;
+}
+
+// 內容頁左右間距
+.w-content{
+  padding-left: 32px;
+  padding-right: 32px;
+}
+
+// 圖片取代文字
+@mixin hide-text{
+  text-indent: 130%;          // 首行縮排，把文字推出 h1 之外
+  overflow: hidden;           // 將溢出區塊的部分都隱藏起來
+  white-space: nowrap;        //不換行
+}
+
+// icon hover 效果
+.control-icon{
+  &:hover{
+    color: $success;
+  }
+}
+
+.page-title{
+  font-size: 24px;
+}
+
+// 間距
+.mt-8{
+  margin-top: 32px;
+}
+
+.mb-14{
+  margin-bottom: 64px;
+}
+
+.px-8{
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.pt-8{
+  padding-top: 32px;
+}
+
+// 左側圓角 2px
+.rounded-s-2{
+  border-radius: 2px 0 0 2px;
+}
+
+// 右側圓角 2px
+.rounded-e-2{
+  border-radius: 0 2px 2px 0;
+}

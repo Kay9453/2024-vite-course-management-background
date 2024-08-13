@@ -1,0 +1,118 @@
+// 載入字型
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+body{
+    font-family: "Lato",sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+
+// 程式碼區塊
+code{
+    font-family: "Roboto Mono",serif;
+    color: $success;
+    background-color: $light;
+    border-radius: 2px;
+    padding: 0 4px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.icon-unfilled {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.btn{
+  border-radius: 2px;
+}
+
+textarea{
+  &::placeholder{
+    color: $gray-400;
+  }
+}
+
+thead{
+  border-bottom: 1px solid $gray-900;
+}
+
+// Modal 視窗
+.modal-content{
+  border-radius: 2px;
+}
+
+.modal-header{
+  padding: 32px;
+  border-bottom: 0;
+}
+.modal-body{
+  padding: 0 32px 32px 32px;
+}
+.modal-footer{
+  padding: 16px 32px;
+}
+
+label{
+  font-size: 14px;
+}
+
+input , .form-select{
+  padding: 16px;
+  border-radius: 2px;
+}
+.form-select{
+  border-color: $gray-900;
+}
+
+time{
+  font-size: 14px;
+}
+
+.form-check-input{
+  padding: 10px;
+  border: 2px solid $gray-900;
+}
+
+.pagination{
+  .active{
+    a{
+      background-color: $success;
+      border-color: $success;
+    }
+  }
+}
+
+.page-link{
+  color: $gray-900;
+  border-color: $success;
+  span{
+    color: $success;
+  }
+}
+
+hr{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.dropdown-toggle::after{
+  border-top-color: $success;
+}

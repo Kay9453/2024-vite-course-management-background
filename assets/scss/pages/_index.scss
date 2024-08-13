@@ -1,3 +1,56 @@
+.content{
+  width: calc(100% - 296px);
+  margin-left: auto;
+}
+
 .index-title {
   font-size: 100px;
+}
+.navbar-nav{
+  .dropdown-menu{
+    position: absolute;
+  }
+}
+
+.assignment-list-sec{
+  width: 35%;
+}
+
+.assignment-list{
+  font-size: 12px;
+  border-radius: 2px;
+}
+.assignment-list{
+  .active{
+    // 複製跟 hover 相同的樣式
+    z-index: 1;
+    color: var(--bs-list-group-action-hover-color);
+    text-decoration: none;
+    background-color: var(--bs-list-group-action-hover-bg);
+    border: var(--bs-list-group-border-width) solid var(--bs-list-group-border-color);
+  }
+}
+
+.assignment-list-intro{
+  font-size: 16px;
+}
+
+.comment-num{
+  font-size: 12px;
+  color: $secondary;
+}
+.download-btn{
+  border: 1px solid $gray-400;
+}
+.assignment-sec{
+  width: 65%;
+  position: relative;
+}
+.control-bar{
+  margin-bottom: 32px;
+}
+.editor-view{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 32px;
 }
